@@ -10,15 +10,13 @@
 </head>
 <body>
     <div id="display" class="box">
-        <p class="bid-a">dummy</p>
-        <p class="bid-b">dummy</p>
     </div>
     <div class="box flex">
-        <input type="text" id="input-A"><button onClick="Event.placeBid('A')">Place Bid A</button>
-        <input type="text" id="input-B"><button onClick="Event.placeBid('A')">Place Bid B</button>
+        <input type="text" id="input-A"><button onClick="Event.placeBid('John')">Place Bid From John</button>
+        <input type="text" id="input-B"><button onClick="Event.placeBid('Jane')">Place Bid From Jane</button>
     </div>
     <div class="box">
-        <button onClick="Event.deleteStorage()">Delete Local Storage</button>
+        <button onClick="Storage.delete()">Delete Local Storage</button>
     </div>
 </body>
 </html>

@@ -1,0 +1,25 @@
+body{
+    color:#ccc;
+    background: #333;
+}
+
+.box{
+    padding:32px;
+    width:400px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bid-a{
+    color:cyan;
+}
+
+.bid-b{
+    color:magenta;
+}

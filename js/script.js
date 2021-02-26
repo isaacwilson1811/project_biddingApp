@@ -1,6 +1,6 @@
 var Data = [];
 
-window.onload - function(){
+window.onload = function(){
     Storage.load();
     HTML.render();
 }
